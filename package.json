@@ -27,7 +27,6 @@
     "test:dev": "lb-mocha --allow-console-logs dist/__tests__/**/*.js && yarn posttest",
     "migrate": "node ./dist/migrate",
     "openapi-spec": "node ./dist/openapi-spec",
-    "prestart": "yarn build",
     "start": "node -r source-map-support/register .",
     "clean": "lb-clean dist *.tsbuildinfo .eslintcache"
   },
